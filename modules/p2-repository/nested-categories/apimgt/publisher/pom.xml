@@ -338,9 +338,6 @@
                                     org.wso2.carbon.apimgt.publisher:${apimgt.feature.version}
                                 </importFeatureDef>
                                 <importFeatureDef>
-                                    org.wso2.carbon.apimgt.store:${apimgt.feature.version}
-                                </importFeatureDef>
-                                <importFeatureDef>
                                     org.wso2.carbon.apimgt.startup.publisher:${apimgt.feature.version}
                                 </importFeatureDef>
                                 <importFeatureDef>
@@ -483,6 +480,9 @@
                                 </importFeatureDef>
                                 <importFeatureDef>
                                     org.jaggeryjs.server:${org.jaggery.version}
+                                </importFeatureDef>
+                                <importFeatureDef>
+                                    org.wso2.carbon.bam.service.agent:${carbon.deployment.version}
                                 </importFeatureDef>
 				<importFeatureDef>
      				    org.wso2.carbon.tenant.mgt.common:${carbon.commons.version}
